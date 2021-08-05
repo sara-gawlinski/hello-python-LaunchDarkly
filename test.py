@@ -3,10 +3,10 @@ import ldclient
 from ldclient.config import Config
 
 # Set sdk_key to your LaunchDarkly SDK key before running
-sdk_key = ""
+sdk_key = "sdk-0077f848-46b8-47ca-a730-6eab7aa6a67c"
 
 # Set feature_flag_key to the feature flag key you want to evaluate
-feature_flag_key = "my-boolean-flag"
+feature_flag_key = "waggle-feature"
 
 def show_message(s):
   print("*** %s" % s)
